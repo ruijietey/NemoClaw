@@ -59,7 +59,7 @@ components:
         provider_type: "openai"
         provider_name: "bitdeer-ai"
         endpoint: "https://api-inference.bitdeer.ai/v1"
-        model: "nvidia/nemotron-3-super-120b-a12b"
+        model: "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B"
         credential_env: "BITDEERAI_API_KEY"
 
   policy:

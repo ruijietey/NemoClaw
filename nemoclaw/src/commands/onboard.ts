@@ -33,14 +33,14 @@ const BUILD_ENDPOINT_URL = "https://integrate.api.nvidia.com/v1";
 const HOST_GATEWAY_URL = "http://host.openshell.internal";
 
 const BITDEER_MODELS = [
-  { id: "nvidia/nemotron-3-super-120b-a12b", label: "Nemotron 3 Super 120B" },
-  { id: "minimaxai/minimax-m2.5", label: "MiniMax M2.5" },
-  { id: "qwen/qwen3.5-397b-a17b", label: "Qwen 3.5 397B" },
-  { id: "z-ai/glm5", label: "GLM-5" },
-  { id: "minimaxai/minimax-m2_1", label: "MiniMax M2.1" },
-  { id: "moonshotai/kimi-k2.5", label: "Kimi K2.5" },
-  { id: "z-ai/glm4_7", label: "GLM-4.7" },
-  { id: "deepseek-ai/deepseek-v3_2", label: "DeepSeek V3.2" },
+  { id: "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B", label: "Nemotron 3 Super 120B" },
+  { id: "MiniMaxAI/MiniMax-M2.5", label: "MiniMax M2.5" },
+  { id: "Qwen/Qwen3.5-397B-A17B", label: "Qwen 3.5 397B" },
+  { id: "zai-org/GLM-5", label: "GLM-5" },
+  { id: "MiniMaxAI/MiniMax-M2.1", label: "MiniMax M2.1" },
+  { id: "moonshotai/Kimi-K2.5", label: "Kimi K2.5" },
+  { id: "zai-org/GLM-4.7", label: "GLM-4.7" },
+  { id: "deepseek-ai/DeepSeek-V3.2", label: "DeepSeek V3.2" },
 ];
 
 const DEFAULT_MODELS = [

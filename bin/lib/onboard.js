@@ -346,7 +346,7 @@ async function setupNim(sandboxName, gpu) {
       }
       process.env.BITDEERAI_API_KEY = enteredKey;
     }
-    model = model || "nvidia/nemotron-3-super-120b-a12b";
+    model = model || "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B";
     console.log(`  Using Bitdeer AI with model: ${model}`);
   }
 
